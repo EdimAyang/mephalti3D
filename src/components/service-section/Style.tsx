@@ -15,6 +15,14 @@ export const Services = styled.section`
         text-align:center;
         padding:15px;
     }
+    @media screen and (max-width:750px){
+    height:200px;
+    padding:10px;
+
+    h2{
+        padding:10px;
+    }
+}
 
 `
 
@@ -27,13 +35,17 @@ export const CardWrapper = styled.div`
     justify-content:space-between;
     gap:14px;
     
+    @media screen and (max-width:750px){
+     overflow-x:scroll;
+     gap:10px;
+     
+}
 `
-export const Servicestext = styled.div`
-    width:40%;
-    height:100%;
-    border:1px solid;
-    
-`
+// export const Servicestext = styled.div`
+    /* width:40%; */
+    /* height:100%; */
+    /* border:1px solid; */
+// `
 export const Card1 = styled.div`
     display:flex;
     flex-direction:column;
@@ -41,12 +53,22 @@ export const Card1 = styled.div`
     justify-content:space-between;
     height:100%;
     width:20%;
+
+     @media screen and (max-width:750px){
+        width:40%;
+        
+    }
 `
 export const Imagediv = styled.div`
     width:100%;
     height:50%;
     border:1px solid;
     border-radius:10px;
+    
+        
+    @media screen and (max-width:750px){
+        height:80%;
+    }
 `
 export const Textdiv = styled.div`
     width:100%;
@@ -59,6 +81,18 @@ export const Textdiv = styled.div`
     p{
         text-align:center;
     }
+
+    @media screen and (max-width:750px){
+    height:60%;
+    padding:0px;
+    p{
+        display:none;
+    }
+
+    h4{
+        padding:7px;
+    }
+    }   
 `
 
 
@@ -70,6 +104,10 @@ export const Card2 = styled.div`
     justify-content:space-between;
     height:100%;
     width:20%;
+    @media screen and (max-width:750px){
+    width:40%;
+    flex:1;
+}
 `
 export const Card3 = styled.div`
     display:flex;
@@ -78,6 +116,10 @@ export const Card3 = styled.div`
     justify-content:space-between;
     height:100%;
     width:20%;
+    @media screen and (max-width:750px){
+    width:40%;
+    flex:1;
+}
 `
 export const Card4 = styled.div`
     display:flex;
@@ -86,6 +128,10 @@ export const Card4 = styled.div`
     justify-content:space-between;
     height:100%;
     width:20%;
+    @media screen and (max-width:750px){
+    width:40%;
+    flex:1;
+}
 `
 export const Card5 = styled.div`
      display:flex;
@@ -94,4 +140,8 @@ export const Card5 = styled.div`
     justify-content:space-between;
     height:100%;
     width:20%;
+    @media screen and (max-width:750px){
+    width:40%;
+    flex:1;
+}
 `

@@ -22,6 +22,10 @@ export const Hero = styled.header`
     top:40px;
     gap:10px;
 
+    @media screen and (max-width:750px){
+        flex-direction:column;
+        height:1250px;
+    }
 `
 export const HeroText = styled.div`
     height:100%;
@@ -42,7 +46,10 @@ export const HeroText = styled.div`
         color:#1C110A;
         margin-bottom:10px;
     }
-
+    @media screen and (max-width:750px){
+        width:100%;
+        height:100%;
+    }
 `
 
 export const HeroImage = styled.div`
@@ -52,13 +59,25 @@ height:100%;
 grid-template-columns:repeat(3,1fr);
 grid-template-rows:repeat(2, 285px);
 gap:10px;
-/* padding:10px; */
+
+@media screen and (max-width:750px){
+width:100%;
+grid-template-columns:repeat(1,1fr);
+grid-template-rows:repeat(5, 285px);
+gap:10px;
+}
 `
 
 export const Box1 = styled.div`
     grid-column:1/3;
     background-color:#C5E0FC;
     border-radius:15px;
+
+    @media screen and (max-width:750px){
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    
 `
 
 export const Box2 = styled.div`
@@ -66,13 +85,25 @@ export const Box2 = styled.div`
     grid-column:3/4;
     background-color:#C5E0FC;
     border-radius:15px;
+    @media screen and (max-width:750px){
+    grid-column:1/2;
+    grid-row:2/3;
+}
 `
 
 export const Box3 = styled.div`
     background-color:#C5E0FC;
     border-radius:15px;
+    @media screen and (max-width:750px){
+    grid-column:1/2;
+    grid-row:3/4;
+}
 `
 export const Box4 = styled.div`
     background-color:#C5E0FC;
     border-radius:15px;
+    @media screen and (max-width:750px){
+    grid-column:1/2;
+    grid-row:4/5;
+    }
 `

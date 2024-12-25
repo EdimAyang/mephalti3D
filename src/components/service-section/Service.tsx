@@ -26,7 +26,7 @@ const Service = () => {
 
             <Textdiv>
                 <h4>Service1</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi tempore nulla itaque sint repudiandae assumenda, iure molestias atque optio ullam ipsum fugit unde, repellat alias facere modi voluptates reprehenderit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi tempore nulla itaque sint repellat !</p>
             </Textdiv>
         </Card1>
 
@@ -37,9 +37,8 @@ const Service = () => {
 
             <Textdiv>
                 <h4>Service1</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi 
-                tempore nulla itaque sint repudiandae assumenda, iure molestias atque optio ullam 
-                ipsum fugit unde, repellat alias facere modi voluptates reprehenderit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi
+                ipsum fugit unde!</p>
             </Textdiv>
         </Card2>
 
@@ -49,9 +48,7 @@ const Service = () => {
         </Imagediv>
         <Textdiv>
             <h4>Service1</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi 
-            tempore nulla itaque sint repudiandae assumenda, iure molestias atque optio ullam 
-            ipsum fugit unde, repellat alias facere modi voluptates reprehenderit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi reprehenderit!</p>
         </Textdiv>
         </Card3>
 
@@ -61,9 +58,8 @@ const Service = () => {
             </Imagediv>
             <Textdiv>
                 <h4>Service1</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi 
-                tempore nulla itaque sint repudiandae assumenda, iure molestias atque optio ullam 
-                ipsum fugit unde, repellat alias facere modi voluptates reprehenderit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita 
+                ipsum fugit unde!</p>
             </Textdiv>
         </Card4>
 
@@ -74,8 +70,7 @@ const Service = () => {
             <Textdiv>
                 <h4>Service1</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi 
-                tempore nulla itaque sint repudiandae assumenda, iure molestias atque optio ullam 
-                ipsum fugit unde, repellat alias facere modi voluptates reprehenderit!</p>
+                tempore nulla itaque sint !</p>
             </Textdiv>
         </Card5>
       </CardWrapper>

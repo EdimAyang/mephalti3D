@@ -19,6 +19,11 @@ export const Product = styled.section`
         padding:15px;
         color:#fff;
         }
+            
+@media screen and (max-width:750px){
+    height:330px;
+    top:27%;
+}
 `
 
 export const ProductsWrapper = styled.section`
@@ -30,6 +35,15 @@ export const ProductsWrapper = styled.section`
     height:80%;
     /* border:1px solid #ffff; */
     padding:13px;
+
+        
+@media screen and (max-width:750px){
+    width:100%;
+    grid-auto-rows:100px;
+    gap:10px;
+    height:100%;
+    padding:0px;
+}
 
 `
 export const Box1 = styled.div`

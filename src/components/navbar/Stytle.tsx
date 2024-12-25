@@ -30,35 +30,6 @@ export const Logo = styled.img`
     
 `
 
-// export const Navigations = styled.div<barsProps>`
-//     width: 100%;
-//     height:${({active}) => active ? "300px" : "0px" };
-//     left:0;
-//     top:0;
-//     margin-top:9%;
-//     position:absolute;
-//     background-color:#072AC8;
-//     display:flex;
-//     justify-content:space-between;
-//     flex-direction:column;
-//     justify-content:center;
-//     align-items:center;
-//     transition-duration:1s;
-//     z-index:0;
-    
-//     a{
-//         text-decoration:none;
-//         font-size:20px;
-//         cursor: pointer;
-//         padding: 10px;
-//         color:#ffff;
-//         visibility:${({active})=>active ? "show" : "hidden"};
-//         transition-delay:0.5s;
-        
-//     }
-
-// `
-
 
 export const Navigations = styled.div<barsProps>`
 display:flex;
@@ -70,8 +41,33 @@ a{
     color:#C5E0FC;
 }
 
+@media screen and (max-width:750px){
+    width: 100%;
+    height:${({active}) => active ? "300px" : "0px" }; 
+    left:0;
+    top:0;
+    margin-top:9%;
+    position:absolute;
+    background-color:#043565;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition-duration:1s;
+    z-index:0;
+    
+    a{
+       text-decoration:none;
+       font-size:20px;
+       cursor: pointer;
+       padding: 10px;
+       color:#ffff;
+       visibility:${({active})=>active ? "show" : "hidden"};
+        transition-delay:0.5s;
+    }
+}
 `
-
 
 export const CartLogo = 
 styled.div`
@@ -100,10 +96,16 @@ align-items:center;
         left:30px;
         color:#fff;
     }
+        @media screen and (max-width:750px){
+        display:none;
+        }
 `
 export const Bars = styled.img`
     width:25px;
     height:25px;
     cursor: pointer;
     display:none;
+    @media screen and (max-width:750px){
+        display:block;
+    }
 `
