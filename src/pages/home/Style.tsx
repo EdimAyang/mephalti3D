@@ -24,7 +24,11 @@ export const Hero = styled.header`
 
     @media screen and (max-width:750px){
         flex-direction:column;
-        height:1250px;
+        height:1300px;
+    }
+
+    @media screen and (max-width:350px){
+    height:1390px;
     }
 `
 export const HeroText = styled.div`

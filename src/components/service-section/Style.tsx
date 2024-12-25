@@ -18,11 +18,13 @@ export const Services = styled.section`
     @media screen and (max-width:750px){
     height:200px;
     padding:10px;
+  
+    }
 
     h2{
         padding:10px;
     }
-}
+
 
 `
 

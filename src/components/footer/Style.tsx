@@ -18,6 +18,11 @@ export const FooterStyle = styled.footer`
             color:#C5E0FC;
         }
     }
+     @media screen and (max-width:750px){
+        flex-direction:column;
+        height:550px;
+        top:43%;
+     }
 `
 
 export const InfoWrapprer = styled.div`
@@ -25,6 +30,9 @@ export const InfoWrapprer = styled.div`
     height:100%;
     display:flex;
     justify-content:space-between;
+    @media screen and (max-width:750px){
+        flex-direction:column;
+    }
 
 `
 export const Location = styled.div`

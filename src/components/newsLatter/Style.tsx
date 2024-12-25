@@ -19,6 +19,13 @@ export const NewsL = styled.section`
         text-align:center;
         color:#fff;
     }
+
+    @media screen and (max-width:750px){
+        width:90%;
+        top:35%;
+        height:200px;
+    }
+
 `
 
 export const InputWrapper = styled.form`
@@ -42,5 +49,11 @@ export const InputWrapper = styled.form`
         color:#fff;
         outline:none;
         
+    }
+    @media screen and (max-width:750px){
+        width:100%;
+        gap:7px;
+        padding:7px;
+        margin-top:10px;
     }
 `
