@@ -24,7 +24,7 @@ const Home = () => {
       <Navbar />
         <Hero>
           <HeroText>
-            <h1>Bring Your Idea Your Idea To Life</h1>
+            <h1>Bring Your Idea To Life</h1>
             <p>With 3D Technology</p>
             <Button children="shop"  size='150px'/>
           </HeroText>
