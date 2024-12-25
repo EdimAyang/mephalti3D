@@ -5,7 +5,6 @@ import {
      CardWrapper, 
      Imagediv,
       Services, 
-      Servicestext,
        Textdiv ,
        Card2,
        Card3,
