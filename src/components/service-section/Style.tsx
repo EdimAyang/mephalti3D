@@ -25,7 +25,7 @@ export const CardWrapper = styled.div`
     justify-content:center;
     align-items:center;
     justify-content:space-between;
-    gap:15px;
+    gap:14px;
     
 `
 export const Servicestext = styled.div`
