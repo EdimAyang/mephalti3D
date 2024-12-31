@@ -10,7 +10,7 @@ const News = () => {
 
       <InputWrapper>
         <input type="text" placeholder='Email'/>
-        <Button children = "Submit" color=''/>
+        <Button children = "Submit" color='#043565'/>
       </InputWrapper>
     </NewsL>
   )

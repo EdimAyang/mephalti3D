@@ -11,4 +11,6 @@ export const ButtonStyle = styled.button<Iprops>`
     border-radius:5px;
     width:${({size}) => size ? `${size}` : "100px" };
     cursor:pointer;
+    background-color:${({color}) => color ? `${color}` : '#0E0F19'};
+    color:#fff;
 `

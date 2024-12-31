@@ -30,6 +30,7 @@ export const InfoWrapprer = styled.div`
     height:100%;
     display:flex;
     justify-content:space-between;
+
     @media screen and (max-width:750px){
         flex-direction:column;
     }
@@ -73,4 +74,24 @@ export const Info = styled.div`
     }
 `
 
+export const Mediawrapper = styled.div`
+    display:flex;
+    gap:10px;
+    justify-content:space-between;
+    margin-top:10%;
 
+    img{
+        width:30px;
+        height:30px;
+    }
+
+    img:hover{
+        transform:scale(1.1);
+        cursor: pointer;
+    }
+
+    @media screen and (max-width:750px){
+        gap:10px;
+        width:40%;
+    }
+`

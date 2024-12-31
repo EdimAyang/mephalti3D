@@ -7,7 +7,7 @@ import styled from "styled-components";
 export const Services = styled.section`
     width:100%;
     height:500px;
-    background-color:#D8EAFD;
+    /* background-color:#D8EAFD; */
     position:relative;
     top:20%;
     padding:20px;
@@ -55,7 +55,6 @@ export const Card1 = styled.div`
     justify-content:space-between;
     height:100%;
     width:20%;
-
      @media screen and (max-width:750px){
         width:40%;
         
@@ -64,9 +63,8 @@ export const Card1 = styled.div`
 export const Imagediv = styled.div`
     width:100%;
     height:50%;
-    border:1px solid;
     border-radius:10px;
-    
+    box-shadow:10px 10px 30px rgb(0 ,0 ,0, 0.5);
         
     @media screen and (max-width:750px){
         height:80%;

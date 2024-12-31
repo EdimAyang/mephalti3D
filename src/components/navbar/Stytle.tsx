@@ -102,7 +102,7 @@ align-items:center;
 `
 export const Bars = styled.img`
     width:25px;
-    height:25px;
+    height:20px;
     cursor: pointer;
     display:none;
     @media screen and (max-width:750px){

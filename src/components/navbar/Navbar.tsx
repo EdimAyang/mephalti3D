@@ -18,7 +18,7 @@ const Navbar = () => {
       <Navigations active = {activeBar} >
         <Link to="/">Home</Link>
         <Link to="/shop">Shop</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/contacts">Contact</Link>
         <Link to="/cart">Cart</Link>
       </Navigations>
 
@@ -26,7 +26,7 @@ const Navbar = () => {
         <img src="/icon/cart-shopping-solid.svg" alt="img" />
         <div>0</div>
       </CartLogo>
-      <Bars src={Bar ? '/icon/x-solid.svg' : '/icon/bars-solid (2).svg'} onClick={toggler}/>
+      <Bars src={Bar ? 'icon/icons8-cancel.svg' : 'assets/icons8-menu-48.png'} onClick={toggler}/>
     </Nav>
   )
 }

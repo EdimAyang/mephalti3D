@@ -1,5 +1,12 @@
 
-import { FooterStyle, Info, InfoWrapprer, Location, SocialMedia } from './Style'
+import {
+   FooterStyle,
+    Info, 
+    InfoWrapprer,
+     Location,
+      SocialMedia,
+      Mediawrapper
+    } from './Style'
 
 const Footer = () => {
   return (
@@ -27,6 +34,17 @@ const Footer = () => {
               <div>
                 <p>On our Social media Handle</p>
               </div>
+              <Mediawrapper>
+                <img src="assets/icons8-facebook-logo-94.png" alt="facebook-logo" />
+
+                <img src="assets/icons8-whatsapp-logo-94.png" alt="whatsapp-logo" />
+
+                <img src="assets/icons8-instagram-logo-94.png" alt="insta-logo" />
+
+                <img src="assets/icons8-tiktok-logo-94.png" alt="tiktok-logo" />
+
+                <img src="assets/icons8-linkedin-logo-94.png" alt="" />
+              </Mediawrapper>
             </SocialMedia>
         </InfoWrapprer>
     </FooterStyle>

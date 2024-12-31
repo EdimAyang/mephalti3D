@@ -7,7 +7,6 @@ import {
     HeroText,
      HeroImage,
      Box1,
-     Box2,
      Box3,
      Box4
     } from './Style'
@@ -30,7 +29,6 @@ const Home = () => {
           </HeroText>
          <HeroImage>
           <Box1>  </Box1>
-          <Box2>  </Box2>
           <Box3>  </Box3>
           <Box4>  </Box4>
           </HeroImage> 
