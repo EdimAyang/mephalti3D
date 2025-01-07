@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Contact from './pages/contacts/Contact';
+import Shop from './pages/shop/Shop'
 import { AppStyle, GlobalStyles } from './Global';
 function App() {
 
@@ -14,6 +15,11 @@ function App() {
       {
         path: "contacts",
         element: <Contact />
+      },
+
+      {
+        path: "shop",
+        element: <Shop />
       }
   ])
 

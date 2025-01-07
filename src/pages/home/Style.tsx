@@ -2,13 +2,13 @@ import styled from "styled-components";
 //Colors #072AC8,#FFB238;
 //#043565, #07529D,#C5E0FC,#D8EAFD,#1#C5E0FC,#0E0F19
 export const StyledHome = styled.div`
-    height: 100%;
+    height: 100vh;
     width:100%;
 `
 
 export const Hero = styled.header`
     width:100%;
-    height:600px;
+    height:690px;
     background-color:#043565; 
     background-position:center;
     background-size:cover;
@@ -24,7 +24,7 @@ export const Hero = styled.header`
 
     @media screen and (max-width:750px){
         flex-direction:column;
-        height:1300px;
+        height:1200px;
     }
 
     @media screen and (max-width:350px){
@@ -39,16 +39,16 @@ export const HeroText = styled.div`
     font-weight:100;
     color:#0E0F19;
     padding:10px;
-    background-color:#C5E0FC;
     border-radius:15px;
     h1{
         width:100%;
         margin-bottom:20px;
         font-size:50px;
+        color:#fff;
     }
 
     p{
-        color:#1C110A;
+        color:#ffff;
         margin-bottom:10px;
     }
     @media screen and (max-width:750px){
@@ -60,6 +60,7 @@ export const HeroText = styled.div`
 export const HeroImage = styled.div`
 display:grid;
 width:70%;
+padding-top:30px;
 height:100%;
 grid-template-columns:repeat(2,1fr);
 grid-template-rows:repeat(2, 285px);
@@ -77,6 +78,10 @@ export const Box1 = styled.div`
     grid-column:1/3;
     background-color:#C5E0FC;
     border-radius:15px;
+    background-image:url("/assets/image36.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
 
     @media screen and (max-width:750px){
         grid-column:1/2;
@@ -99,6 +104,10 @@ export const Box1 = styled.div`
 export const Box3 = styled.div`
     background-color:#C5E0FC;
     border-radius:15px;
+    background-image:url("/assets/image19.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
     @media screen and (max-width:750px){
     grid-column:1/2;
     grid-row:2/3;
@@ -107,6 +116,10 @@ export const Box3 = styled.div`
 export const Box4 = styled.div`
     background-color:#C5E0FC;
     border-radius:15px;
+    background-image:url("/assets/image21.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
     @media screen and (max-width:750px){
     grid-column:1/2;
     grid-row:3/4;

@@ -37,8 +37,9 @@ justify-content:space-between;
 width:40%;
 a{
     text-decoration:none;
-    font-size:13px;
+    font-size:15px;
     color:#C5E0FC;
+    font-weight:700;
 }
 
 @media screen and (max-width:750px){

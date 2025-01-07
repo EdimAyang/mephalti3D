@@ -6,7 +6,7 @@ export const NewsL = styled.section`
     margin:0 auto;
     background-color:#0E0F19;
     position:relative;
-    top:40%;
+    top:10%;
     padding:10px;
     border-radius:10px;
     h2{

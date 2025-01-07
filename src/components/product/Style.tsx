@@ -10,14 +10,14 @@ export const Product = styled.section`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    background-color: #07529D;
+    /* background-color: #07529D; */
     padding:10px;
     position: relative;
-    top:30%;
+    top:5%;
         h2{
         text-align:center;
         padding:15px;
-        color:#fff;
+        color:#0E0F19;
         }
             
 @media screen and (max-width:750px){
@@ -38,44 +38,77 @@ export const ProductsWrapper = styled.section`
 
         
 @media screen and (max-width:750px){
+    grid-template-columns:repeat(2,1fr);
     width:100%;
-    grid-auto-rows:100px;
+    grid-auto-rows:200px;
     gap:10px;
     height:100%;
     padding:0px;
+    overflow-y:scroll;
+
 }
 
 `
 export const Box1 = styled.div`
     border:1px solid #ffff;
     grid-column:1/2;
-    border-radius:10px;
+    border:none;
+    img{
+        width:100%;
+        height:100%;
+        border-radius:10px;
+    }
 `
 export const Box2 = styled.div`
     border:1px solid #ffff;
     grid-column:2/3;
+    border:none;
+    img{
+    width:100%;
+    height:100%;
     border-radius:10px;
+}
 `
 export const Box3 = styled.div`
     border:1px solid #ffff;
     grid-column:3/4;
+    border:none;
+    img{
+    width:100%;
+    height:100%;
     border-radius:10px;
+}
 `
 export const Box4 = styled.div`
     border:1px solid #ffff;
     grid-column:1/2;
     grid-row:2/3;
+    border:none;
+    img{
+    width:100%;
+    height:100%;
     border-radius:10px;
+}
 `
 export const Box5 = styled.div`
     border:1px solid #ffff;
     grid-column:2/3;
     grid-row:2/3;
+    border:none;
+    img{
+    width:100%;
+    height:100%;
     border-radius:10px;
+}
 `
 export const Box6 = styled.div`
     border:1px solid #ffff;
     grid-column:3/4;
     grid-row:2/3;
+    border:none;
+    img{
+    width:100%;
+    height:100%;
     border-radius:10px;
+}
 `
