@@ -10,8 +10,9 @@ export const Product = styled.section`
     justify-content:center;
     align-items:center;
     flex-direction:column;
+    border:1px solid;
     /* background-color: #07529D; */
-    padding:10px;
+    /* padding:10px; */
     position: relative;
     top:5%;
         h2{
@@ -21,35 +22,35 @@ export const Product = styled.section`
         }
             
 @media screen and (max-width:750px){
-    height:330px;
+    height:390px;
     top:27%;
 }
 `
 
-export const ProductsWrapper = styled.section`
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-auto-rows:250px;
-    gap:15px;
-    width:60%;
-    height:80%;
-    /* border:1px solid #ffff; */
-    padding:13px;
-
-        
-@media screen and (max-width:750px){
-    grid-template-columns:repeat(2,1fr);
-    width:100%;
-    grid-auto-rows:200px;
-    gap:10px;
-    height:100%;
-    padding:0px;
-    overflow-y:scroll;
-
-}
-
-`
-export const Box1 = styled.div`
+// export const ProductsWrapper = styled.section`
+    /* display:grid; */
+    /* grid-template-columns:repeat(3, 1fr); */
+    /* grid-auto-rows:250px; */
+    /* gap:15px; */
+    /* width:60%; */
+    /* height:80%; */
+    // border:1px solid #ffff;
+    /* padding:13px; */
+/*  */
+/*          */
+/* @media screen and (max-width:750px){ */
+    /* grid-template-columns:repeat(2,1fr); */
+    /* width:100%; */
+    /* grid-auto-rows:200px; */
+    /* gap:10px; */
+    /* height:100%; */
+    /* padding:0px; */
+    /* overflow-y:scroll; */
+/*  */
+/* } */
+/*  */
+// `
+export const Card = styled.div`
     border:1px solid #ffff;
     grid-column:1/2;
     border:none;
