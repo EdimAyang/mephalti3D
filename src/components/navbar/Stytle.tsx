@@ -16,12 +16,12 @@ export const Nav = styled.nav`
     justify-content:space-between;
     padding:10px;
     z-index:100;
-    background-color:#043565;
+    background-color:#0D41E1;
     h4{
         color:#ffff;
         span{
             font-size:15px;
-            color:#C5E0FC;
+            color:#F49F0A;
         }
     }
 `
@@ -38,7 +38,7 @@ width:40%;
 a{
     text-decoration:none;
     font-size:15px;
-    color:#C5E0FC;
+    color:#F49F0A;
     font-weight:700;
 }
 
@@ -49,7 +49,7 @@ a{
     top:0;
     margin-top:9%;
     position:absolute;
-    background-color:#043565;
+    background-color:#0D41E1;
     display:flex;
     justify-content:space-between;
     flex-direction:column;

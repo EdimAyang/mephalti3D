@@ -11,7 +11,14 @@ export const ContactStyled = styled.div`
 export const ContactHero = styled.header`
     width:100%;
     height:600px;
-    background-color:#043565;
+    background: hsla(192, 95%, 50%, 1);
+    background: linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+        
+    background: -moz-linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+        
+    background: -webkit-linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+        
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#07C8F9", endColorstr="#0D41E1",    GradientType=1 );
     position:relative;
     top:5%;
     display:flex;

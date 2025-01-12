@@ -1,5 +1,5 @@
 
-import Carousel from '../carousel/Carousel'
+import Slider from '../carousel/Slider'
 import { Product,} from './Style'
 
 const Products = () => {
@@ -8,7 +8,7 @@ const Products = () => {
   return (
     <Product>
       <h2>Our Products</h2>
-      <Carousel />
+      <Slider />
     </Product>
   )
 }

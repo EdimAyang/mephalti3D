@@ -9,7 +9,15 @@ export const StyledHome = styled.div`
 export const Hero = styled.header`
     width:100%;
     height:690px;
-    background-color:#043565; 
+    background: hsla(192, 95%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#07C8F9", endColorstr="#0D41E1", GradientType=1 );
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -78,6 +86,7 @@ export const Box1 = styled.div`
     grid-column:1/3;
     background-color:#C5E0FC;
     border-radius:15px;
+    border:4px solid #F49F0A;
     background-image:url("/assets/image36.jpg");
     background-position:center;
     background-size:cover;
@@ -108,6 +117,7 @@ export const Box3 = styled.div`
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
+    border:4px solid #F49F0A;
     @media screen and (max-width:750px){
     grid-column:1/2;
     grid-row:2/3;
@@ -120,6 +130,7 @@ export const Box4 = styled.div`
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
+    border:4px solid #F49F0A;
     @media screen and (max-width:750px){
     grid-column:1/2;
     grid-row:3/4;

@@ -14,6 +14,7 @@ export const Services = styled.section`
     h2{
         text-align:center;
         padding:15px;
+        color:#f49f0a;
     }
     @media screen and (max-width:750px){
     height:1250px;
@@ -88,6 +89,7 @@ export const Textdiv = styled.div`
     h4{
     text-align:center;
     padding:10px;
+    color:#f49f0a;
     }
     p{
         text-align:start;

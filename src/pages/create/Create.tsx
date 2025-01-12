@@ -1,7 +1,7 @@
 import { Shopstyles } from "./Style"
 import Navbar from '../../components/navbar/Navbar'
 
-const Shop = () => {
+const Create = () => {
   return (
     <Shopstyles>
         <Navbar />
@@ -10,4 +10,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default Create

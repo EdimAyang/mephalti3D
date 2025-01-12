@@ -17,9 +17,8 @@ const Navbar = () => {
       <h4>Mephalti<span>3D</span></h4>
       <Navigations active = {activeBar} >
         <Link to="/">Home</Link>
-        <Link to="/shop">Shop</Link>
+        <Link to="/create">Create</Link>
         <Link to="/contacts">Contact</Link>
-        <Link to="/cart">Cart</Link>
       </Navigations>
 
       <CartLogo>

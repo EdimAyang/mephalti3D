@@ -2,8 +2,8 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Contact from './pages/contacts/Contact';
-import Shop from './pages/shop/Shop'
 import { AppStyle, GlobalStyles } from './Global';
+import Create from './pages/create/Create';
 function App() {
 
   const router = createBrowserRouter([
@@ -18,8 +18,8 @@ function App() {
       },
 
       {
-        path: "shop",
-        element: <Shop />
+        path: "create",
+        element: <Create />
       }
   ])
 

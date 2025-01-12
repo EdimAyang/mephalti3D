@@ -6,7 +6,14 @@ export const FooterStyle = styled.footer`
     padding:15px;
     position:relative;
     top:50%;
-    background-color:#043565;
+    background: hsla(192, 95%, 50%, 1);
+    background: linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+        
+    background: -moz-linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+        
+    background: -webkit-linear-gradient(90deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+        
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#07C8F9", endColorstr="#0D41E1",    GradientType=1 );
     display:flex;
     justify-content:space-between;
 
@@ -15,7 +22,7 @@ export const FooterStyle = styled.footer`
         padding:10px;
         span{
             font-size:30px;
-            color:#C5E0FC;
+            color:#F49F0A;
         }
     }
      @media screen and (max-width:750px){
@@ -43,6 +50,7 @@ export const Location = styled.div`
     h4{
         margin-bottom:10px;
         text-align:start;
+        color:#F49F0A;
     }
     &>div{
         text-align:start;
@@ -56,6 +64,7 @@ export const SocialMedia = styled.div`
     h4{
     margin-bottom:10px;
     text-align:start;
+    color:#F49F0A;
     }
     &>div{
         text-align:start;
@@ -68,6 +77,7 @@ export const Info = styled.div`
     h4{
         margin-bottom:10px;
         text-align:start;
+        color:#F49F0A;
     }
     &>div{
         text-align:start;
